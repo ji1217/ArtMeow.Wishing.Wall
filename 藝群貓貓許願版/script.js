@@ -9,7 +9,7 @@ $(() => {
       this.winH = $(window).height() - 300;
       this.bindEvents();
       // initial wish cards
-      ['I wanna fly.', '心想事成.', 'Be a Cat.', 'I wish '].forEach(text => this.addWish(text));
+      ['I wanna fly.', '心想事成.', 'Be a Cat.', '喵~'].forEach(text => this.addWish(text));
     }
 
     addWish(text) {
